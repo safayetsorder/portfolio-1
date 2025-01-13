@@ -29,3 +29,38 @@ body {
     color: #000;
 
 }
+
+.hero-container {
+    display: flex;
+    padding: 40px 0;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-left p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-left button {
+    color: white;
+    background-color: #FF6464;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.hero-left button:hover {
+    background-color: #d33b3b;
+    transition: 0.5s;
+}
