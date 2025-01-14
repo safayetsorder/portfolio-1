@@ -64,3 +64,39 @@ body {
     background-color: #d33b3b;
     transition: 0.5s;
 }
+
+.posts-container {
+    background-color: #EDF7FA;
+    padding: 30px 55px;
+}
+
+.post-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-top a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.post-bottom {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.post-bottom .post-card {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.post-card2 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 35px;
+}
