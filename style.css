@@ -118,3 +118,25 @@ body {
     font-size: 9px;
     margin-bottom: 8px;
 }
+
+.midle-container {
+    padding: 40px 0;
+    display: flex;
+    gap: 25px;
+}
+
+.midle-left {
+    width: 100%;
+}
+
+.midle-right {
+    width: 100%;
+}
+
+.midle-container img {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+
+}
